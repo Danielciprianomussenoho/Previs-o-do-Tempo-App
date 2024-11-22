@@ -1,0 +1,37 @@
+.weather-container {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255,0.8);
+
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+}
+
+.weather-list {
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+gap: 10px;
+}
+.weather-item {
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255,0.7);
+}
+
+.forecast-day {
+  text-transform: capitalize;
+  font-size: 1.1rem;
+}
+
+.descript {
+  text-transform: capitalize;
+  margin-top: 10px;
+}
