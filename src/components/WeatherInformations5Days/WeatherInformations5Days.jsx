@@ -23,7 +23,7 @@ const WeatherInformations5Days = ({ weather5Days }) => {
 
     return (
         <div className="weather-container">
-            <h3>Previsão para os proximos 5 dias</h3>
+            <h3>Previsão para os proximos dias</h3>
             <div className="weather-list">
                 {next5DaysForest.map((forecast) => (
                     <div key={forecast.dt} className="weather-item">
